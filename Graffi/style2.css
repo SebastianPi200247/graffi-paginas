@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+html{
+    font-family: sans-serif;
+}
+
+
+
+header{
+    height: 100vh;
+    width: 100%; 
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    padding: 40px;
+}
+
+.container{
+    padding: 50px;
+}
+
+
+.main-header{
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.view-ovarlay{
+    height: 100vh;
+    }
+nav{
+background:rgba(0, 0, 0, 0.178);
+}
+
+.main-header h1{
+    font-size: 2.5rem;
+    font-family: var(--main-font);
+    color: #5f5fb0;
+}
+.main-header hr{
+    width: 60%;
+    margin: auto;
+    padding: 2px;
+    background: #e1f06c;
+    border: none;
+}
+
+.main-header h3{
+    margin: 20px;
+    color: #5f5fb0;
+    font-size: 2rem;
+    
+}
+
+.main-header input{
+    width: 60%;
+    padding: 0.3rem;
+    margin: 20px 0px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    font-size: 1.3rem;
+    background: transparent;
+    outline: none;
+}
+
+
+.main-header button{
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background: #000000;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 20px
+}
+
+.main-header button:hover{
+    transform: scale(1.2);
+}
+ 
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+
+.navbar  {
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/*Cambio el tamaño de letra o fuente*/
+.social-icons .fa {
+    font-size: 2em;
+    }
+    /*Change icons circle size and color here*/
+    .social-icons .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    }
+    .social-icons.icon-circle .fa{
+    border-radius: 50%;
+    }
+    .social-icons.icon-rounded .fa{
+    border-radius:5px;
+    }
+    .social-icons.icon-flat .fa{
+    border-radius: 0;
+    }
+    .social-icons .fa:hover, .social-icons .fa:active {
+    color: #000000;
+    -webkit-box-shadow: 1px 1px 3px #333;
+    -moz-box-shadow: 1px 1px 3px #333;
+    box-shadow: 1px 1px 3px #333;
+    }
+    .social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    }
+    .social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+    transform: scale(1.1) rotate(360deg);
+    }
+    .social-icons .fa-instagram{background-color:#42a5f5;}
+    .social-icons .fa-google-plus-g{background-color:#42a5f5;}
+    .social-icons .fa-github{background-color:#42a5f5;}
+
+
+
+
