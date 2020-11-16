@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+include (conexion.php)
+?>
 <html lang="en">
 
 <head>
@@ -61,12 +64,12 @@
                     <h1>Registrarse</h1>
                     <hr />
                     <h3>Bienvenidos a Graffi</h3>
-                    <form action="C:\Users\Alumno\Desktop\Graffi--Paginas\Graffi\Login.html">
+                    <form action="file:///C:/Users/Alumno/Desktop/graffi-paginas/Graffi/Home.html">
                     <p><input type="text" name="name" placeholder="Usuario"></p>
                     <p><input type="password" name= "Contraseña" placeholder="Contraseña"></p>
                     <p><input type="text" name ="Teléfono" placeholder="Teléfono"></p>
                     <p><input type="text" name = "Name_complete"placeholder="NombredeUsuario"></p>
-           
+                    <form method = 'POST' action="connect.php"></form>
                     
                     <button type="submit">Continuar </button>
                 </form>
